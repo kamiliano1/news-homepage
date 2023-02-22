@@ -6,8 +6,22 @@
 
 html {
   font-family: 'Inter', sans-serif;
+  /* background-color: teal; */
 }
 
-nav a {
+.navbar a {
   @apply hover:text-softOrange focus:text-softOrange smMax:hidden
+}
+
+.primary-navigation {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  transition: transform 500ms ease-in-out;
+}
+
+[aria-expanded="false"]  {
+  transform: translateX(100%);
+}
+.micon {
+  /* grid-template-rows: min-content; */
+  /* grid-template-rows: 900px min-content min-content; */
 }
