@@ -5,10 +5,14 @@ import openNavIcon from "/icon-menu.svg";
 export default function Navbar() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <nav className="">
+    <nav className="md:mb-16">
       <div className="navbar text-lg pt-4 sm:flex sm:items-center sm:justify-between">
         <div className="flex">
-          <img src={companyLogo} alt="company Logo" className="mr-auto h-7" />
+          <img
+            src={companyLogo}
+            alt="company Logo"
+            className="mr-auto h-7 md:h-auto"
+          />
           <img
             src={openNavIcon}
             alt="open Nav"
@@ -16,7 +20,7 @@ export default function Navbar() {
             onClick={() => setOpenNav((prev) => !prev)}
           />
         </div>
-        <ul className="flex space-x-8">
+        <ul className="flex space-x-14">
           <li>
             <a href="#" aria-current="true">
               Home

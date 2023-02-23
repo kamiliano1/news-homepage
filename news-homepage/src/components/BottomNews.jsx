@@ -3,41 +3,52 @@ import secondArticleImg from "/image-top-laptops.jpg";
 import thirdArticleImg from "/image-gaming-growth.jpg";
 export default function BottomNews() {
   return (
-    <section className="pt-5 space-y-4 pb-10 md:flex md:items-start md:col-span-2 md:space-y-0">
-      <div className="flex">
-        <img src={firstArticleImg} alt="retro computer" className="w-[30%]" />
-        <div className="px-3 w-[70%] space-y-2">
-          <h2 className="text-darkGrayishBlue text-3xl" aria-hidden="true">
+    <section className="pt-5 space-y-4 pb-10 md:grid md:grid-cols-3 md:col-span-3 md:space-y-0 gap-x-10  md:mt-7">
+      <div className="flex max-h-[160px]">
+        <img
+          src={firstArticleImg}
+          alt="retro computer"
+          className="w-[30%] max-h-[160px] max-w-[200px]"
+        />
+        <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
+          <h2
+            className="text-darkGrayishBlue text-opacity-50 text-3xl md:text-[2.4rem] md:font-bold"
+            aria-hidden="true"
+          >
             01
           </h2>
-          <p className="text-sm">
-            <a
-              href="#"
-              className="font-bold text-base block hover:text-softRed pb-1"
-            >
-              Reviving Retro PCs
-            </a>
+          <a
+            href="#"
+            className="font-bold text-base block hover:text-softRed pb-1 md:text-[1.4rem] md:pb-0"
+          >
+            Reviving Retro PCs
+          </a>
+          <p className="text-sm md:text-lg">
             What happens when old PCs are given modern upgrades?
           </p>
         </div>
       </div>
+
       <div className="flex">
         <img
           src={secondArticleImg}
           alt="keyboard buttons"
-          className="w-[30%]"
+          className="w-[30%] max-h-[160px] max-w-[200px]"
         />
-        <div className="px-3 w-[70%] space-y-2">
-          <h2 className="text-darkGrayishBlue text-3xl" aria-hidden="true">
+        <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
+          <h2
+            className="text-darkGrayishBlue text-opacity-50 text-3xl md:text-[2.4rem] md:font-bold"
+            aria-hidden="true"
+          >
             02
           </h2>
-          <p className="text-sm">
-            <a
-              href="#"
-              className="font-bold text-base block hover:text-softRed pb-1"
-            >
-              Top 10 Laptops of 2022
-            </a>
+          <a
+            href="#"
+            className="font-bold text-base block hover:text-softRed pb-1 md:text-[1.4rem] md:pb-0"
+          >
+            Top 10 Laptops of 2022
+          </a>
+          <p className="text-sm md:text-lg">
             Our best picks for various needs and budgets.
           </p>
         </div>
@@ -45,20 +56,23 @@ export default function BottomNews() {
       <div className="flex">
         <img
           src={thirdArticleImg}
-          alt="hand with console controller"
-          className="w-[30%]"
+          alt="keyboard buttons"
+          className="w-[30%] max-h-[160px] max-w-[200px]"
         />
-        <div className="px-3 w-[70%] space-y-2">
-          <h2 className="text-darkGrayishBlue text-3xl" aria-hidden="true">
+        <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
+          <h2
+            className="text-darkGrayishBlue text-opacity-50 text-3xl md:text-[2.4rem] md:font-bold"
+            aria-hidden="true"
+          >
             03
           </h2>
-          <p className="text-sm">
-            <a
-              href="#"
-              className="font-bold text-base block hover:text-softRed pb-1"
-            >
-              The Growth of Gaming
-            </a>
+          <a
+            href="#"
+            className="font-bold text-base block hover:text-softRed pb-1 md:text-[1.4rem] md:pb-0"
+          >
+            The Growth of Gaming
+          </a>
+          <p className="text-sm md:text-lg">
             How the pandemic has sparked fresh opportunities.
           </p>
         </div>

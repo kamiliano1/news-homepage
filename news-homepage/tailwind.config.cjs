@@ -18,13 +18,17 @@ module.exports = {
       },
       screens: {
         smMax: { max: "640px" },
+        md: "1000px",
+        lg: "1400px",
       },
       gridTemplateRows: {
-        minContent: "min-content",
+        minContent: "",
         mainArticle: "min-content",
       },
       gridTemplateColumns: {
-        "2.5fr/1fr": "2fr 1fr",
+        "2.5fr/1fr": "1fr 1fr 1fr",
+        midScreen: "1fr 1fr 2fr",
+        // "2.5fr/1fr": "2fr 1fr",
       },
     },
   },
