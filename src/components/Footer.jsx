@@ -7,9 +7,9 @@ export default function Footer() {
         target="_blank"
         className="hover:text-softRed "
       >
-        Frontend Mentor<span className="block md:inline"></span>
+        Frontend Mentor. <span className="block md:inline"></span>
       </a>
-      . Coded by{" "}
+      Coded by{" "}
       <a
         href="https://www.frontendmentor.io/profile/kamiliano1"
         className="hover:text-softRed "

@@ -3,12 +3,12 @@ import secondArticleImg from "/image-top-laptops.jpg";
 import thirdArticleImg from "/image-gaming-growth.jpg";
 export default function BottomNews() {
   return (
-    <section className="pt-5 space-y-4 pb-10 md:grid md:grid-cols-3 md:col-span-3 md:space-y-0 gap-x-10  md:mt-7">
-      <div className="flex max-h-[160px]">
+    <section className="pt-10 space-y-6 pb-10 md:grid md:grid-cols-3 md:col-span-3 md:space-y-0 gap-x-10  md:mt-7">
+      <div className="flex ">
         <img
           src={firstArticleImg}
           alt="retro computer"
-          className="w-[30%] max-h-[160px] max-w-[200px]"
+          className="w-[30%] max-h-[190px] max-w-[120px]"
         />
         <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
           <h2
@@ -33,7 +33,7 @@ export default function BottomNews() {
         <img
           src={secondArticleImg}
           alt="keyboard buttons"
-          className="w-[30%] max-h-[160px] max-w-[200px]"
+          className="w-[30%] max-h-[190px] max-w-[120px]"
         />
         <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
           <h2
@@ -57,7 +57,7 @@ export default function BottomNews() {
         <img
           src={thirdArticleImg}
           alt="keyboard buttons"
-          className="w-[30%] max-h-[160px] max-w-[200px]"
+          className="w-[30%] max-h-[190px] max-w-[120px]"
         />
         <div className="px-3 w-[70%] space-y-2 md:px-6 md:flex md:flex-col md:justify-between">
           <h2

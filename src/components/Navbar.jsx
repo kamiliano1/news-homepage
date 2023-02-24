@@ -5,7 +5,7 @@ import openNavIcon from "/icon-menu.svg";
 export default function Navbar() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <nav className="md:mb-16">
+    <nav className="md:my-16">
       <div className="navbar text-lg pt-4 sm:flex sm:items-center sm:justify-between">
         <div className="flex">
           <img
